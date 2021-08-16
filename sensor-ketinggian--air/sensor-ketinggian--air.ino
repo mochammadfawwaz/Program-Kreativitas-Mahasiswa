@@ -1,6 +1,6 @@
 // Sensor pins
-#define sensorPower 7
-#define sensorPin A0
+    #define sensorPower 10
+    #define sensorPin A0
 
 // Value for storing water level
 int val = 0;
