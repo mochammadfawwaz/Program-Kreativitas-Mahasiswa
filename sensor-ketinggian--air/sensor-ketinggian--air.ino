@@ -22,7 +22,7 @@ void loop() {
   Serial.print("Water level: ");
   Serial.println(level);
   
-  delay(1000);
+  delay(10);
 }
 
 //This is a function used to get the reading

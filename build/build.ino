@@ -65,7 +65,7 @@ void loop(void) {
   
   Serial.print("Water level: ");
   Serial.println(level);
-  delay(1000);
+  delay(10);
 
   static unsigned long samplingTime = millis();
   static unsigned long printTime = millis();
@@ -98,7 +98,7 @@ void loop(void) {
    // Printing the RED (R) value
   Serial.print("R = ");
   Serial.print(redFrequency);
-  delay(1000);
+  delay(10);
   
   // Setting GREEN (G) filtered photodiodes to be read
   digitalWrite(S2,HIGH);
@@ -110,7 +110,7 @@ void loop(void) {
   // Printing the GREEN (G) value  
   Serial.print(" G = ");
   Serial.print(greenFrequency);
-  delay(1000);
+  delay(10);
  
   // Setting BLUE (B) filtered photodiodes to be read
   digitalWrite(S2,LOW);
@@ -122,7 +122,7 @@ void loop(void) {
   // Printing the BLUE (B) value 
   Serial.print(" B = ");
   Serial.println(blueFrequency);
-  delay(1000);
+  delay(10);
   
 }
 
